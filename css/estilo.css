@@ -1,0 +1,80 @@
+body,html{
+    margin: 0;
+    font: 16px;
+    font-family: arial,  sans-serif;
+    color: #777;
+    height: 100%;
+  
+}
+.conteudo{
+    padding: 50px 30px;
+    color: black;
+    background-color: white;
+    text-align: justify;
+
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+/***EFEITO PARALAX***/
+.caixa1 , .caixa2, .caixa3, .caixa4, .caixa5 , .caixa6, .caixa7, .caixa8, .caixa9{
+   position: relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 1px solid red;
+}
+.caixa1{
+    background-image: url(../imagens/imagem1.jpg) ;
+
+}
+.caixa2{
+    background-image: url(../imagens/imagem2.jpeg) ;
+   
+}
+.caixa3{
+    background-image: url(../imagens/imagem3.png);
+    
+}
+.caixa4{
+    background-image: url(../imagens/imagem4.jpg);
+    
+}
+.caixa5{
+    background-image: url(../imagens/imagem5.webp);
+    
+}
+.caixa6{
+    background-image: url(../imagens/imagem6.jpeg);
+    
+}
+.caixa7{
+    background-image: url(../imagens/imagem7.jpg);
+    
+}
+.caixa8{
+    background-image: url(../imagens/imagem8.jpg);
+    
+}
+.caixa9{
+    background-image: url(../imagens/imagem9.jpg);
+    
+}
+.titulo-geral{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+}
+span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+
+}
