@@ -1,31 +1,37 @@
+@font-face {
+    font-family: Fonte_logo;
+    src: url(../fontes/bubblegum-sans-regular.otf);
+}
 body,html{
     margin: 0;
     font: 16px;
-    font-family: arial,  sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #777;
     height: 100%;
   
 }
 .conteudo{
-    padding: 50px 30px;
+    padding: 50px 80px;
     color: black;
     background-color: white;
     text-align: justify;
 
 }
 h3{
+    font-family: Fonte_logo;
     text-transform: uppercase;
     text-align: center;
+    font-size: 2em;
 }
 /***EFEITO PARALAX***/
-.caixa1 , .caixa2, .caixa3, .caixa4, .caixa5 , .caixa6, .caixa7, .caixa8, .caixa9{
+.caixa1 , .caixa2, .caixa3, .caixa4, .caixa5 , .caixa6, .caixa7, .caixa8, .caixa9,.caixa10{
    position: relative;
     height: 100%;
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    border: 1px solid red;
+  
 }
 .caixa1{
     background-image: url(../imagens/imagem1.jpg) ;
@@ -40,15 +46,15 @@ h3{
     
 }
 .caixa4{
-    background-image: url(../imagens/imagem4.jpg);
+    background-image: url(../imagens/imagem4.png);
     
 }
 .caixa5{
-    background-image: url(../imagens/imagem5.webp);
+    background-image: url(../imagens/imagem5.jpg);
     
 }
 .caixa6{
-    background-image: url(../imagens/imagem6.jpeg);
+    background-image: url(../imagens/imagem6.jpg);
     
 }
 .caixa7{
@@ -61,6 +67,10 @@ h3{
 }
 .caixa9{
     background-image: url(../imagens/imagem9.jpg);
+    
+}
+.caixa10{
+    background-image: url(../imagens/imagem11.jpg);
     
 }
 .titulo-geral{
@@ -76,5 +86,6 @@ span.titulo{
     padding: 18px;
     font-size: 25px;
     letter-spacing: 5px;
+    font-family: Fonte_logo;
 
 }
